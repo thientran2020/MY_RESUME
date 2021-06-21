@@ -1,0 +1,84 @@
+body {
+    width: 90%;
+    font-family: sans-serif, helvetica;
+    margin: 0 auto;
+    background-color: black;
+}
+
+#name {
+    font-family: Tahoma;
+    background-color: #C0392B;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    margin-top: 2%;
+    line-height: 0.7em;
+    border-bottom: 14px white solid;
+}
+
+#name h1 {
+    font-size: 4.4em;    
+}
+
+.main_title {
+    border-bottom: 7px red inset;
+}
+
+.italic {
+    font-style: italic;
+    float: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#mainLeft, #mainRight {
+    margin-top: 2%;
+    font-size: 1.2em;
+}
+
+#mainLeft {
+    float: left;
+    width: 60%;
+    background-color: white;
+    margin-right: 1%;
+    padding: 1%;
+}
+
+#mainLeft li {
+    padding: 0.8%;
+}
+
+#mainRight {
+    float: right;
+    width: 30%;
+    background-color: lightgreen;
+    color: black;
+    margin-left: 1%;
+    padding: 2%;
+    font-size: 1.2em;
+}
+
+#mainRight li {
+    margin-top: 5%;
+}
+
+#mainRight li {
+    position: relative;
+    left: -5%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+a:active {
+    color: black;
+}
