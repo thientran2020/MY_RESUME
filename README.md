@@ -1,4 +1,8 @@
 ### This is my resume, created for the purpose of practicing HTML/CSS.
+<h2>First Version</h2>
+<p>Only HTML with simple CSS selectors and properties (float, position).</p>
 
-![img1](https://user-images.githubusercontent.com/70113806/122813885-5944d300-d288-11eb-9f8f-74737eb1ec4d.PNG)
-![img2](https://user-images.githubusercontent.com/70113806/122813877-577b0f80-d288-11eb-938e-baf98e62014b.PNG)
+<h2>Responsive Version</h2>
+<p>More HTML (typography) and CSS (advanced selectors; more properties: flexbox, grid; responsive design: @media).</p>
+
+![img](https://user-images.githubusercontent.com/70113806/126100102-e4b41edb-4c0e-4c78-844e-24aea57add70.png)
