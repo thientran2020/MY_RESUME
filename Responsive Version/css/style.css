@@ -59,7 +59,6 @@ header .content-wrap {
   display: flex;
 }
 header img {
-  flex: 0 0 30%;
   width: 20vw;
   border-radius: 50%;
 }
@@ -73,6 +72,11 @@ header h2 {
 header .headerContent {
   flex: 1;
   margin-left: 10px;
+}
+header .imageButton {
+  flex: 0 0 30%;
+  background-color: #2f3061;
+  border: none;
 }
 
 /* Projects 
