@@ -1,172 +1,176 @@
 /* Global styles
 -------------------------------------------------*/
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
-    font-family: 'Times New Roman', Heletica, Arial, sans-serif;
-    color: black;
-    margin: 0;
-    font-size: 20px;
-    line-height: 1.5;
+  font-family: "Times New Roman", Heletica, Arial, sans-serif;
+  color: black;
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.5;
 }
 a {
-    color: yellow;
-    text-decoration: none;
-    margin: 0;
+  color: yellow;
+  text-decoration: none;
+  margin: 0;
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 p {
-    margin: 0;
+  margin: 0;
 }
-h1, h2 {
-    font-family: Apple Chancery, cursive;
-    margin: 0;
+h1,
+h2 {
+  font-family: Apple Chancery, cursive;
+  margin: 0;
 }
 h3 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 .date {
-    font-weight: 400;
-    font-style: italic;
-    float: right;
+  font-weight: 400;
+  font-style: italic;
+  float: right;
 }
 .content-wrap {
-    max-width: 900px;
-    width: 80%;
-    margin: 0 auto;
-    padding: 40px 0;
+  max-width: 900px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
 }
-
 
 /* Profile 
 -------------------------------------------------*/
 header {
-    background: #2F3061;
-    color: #FFFFFF;
-    text-align: center;
-    overflow: hidden;
-    padding-bottom: 5%;
+  background: #2f3061;
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+}
+header .content-wrap {
+  display: flex;
 }
 header img {
-    width: 20vw;
-    float: left;
-    position: relative;
-    margin-right: 20px;
+  flex: 0 0 30%;
+  width: 20vw;
+  border-radius: 50%;
 }
 header h1 {
-    font-size: 6.4vw;
-    padding: 15px 0;
+  font-size: 6.4vw;
+  padding: 15px 0;
 }
 header h2 {
-    font-size: 2vw; 
+  font-size: 2vw;
 }
-
+header .headerContent {
+  flex: 1;
+  margin-left: 10px;
+}
 
 /* Projects 
 -------------------------------------------------*/
 .projects {
-    background: #F7FFF7;
+  background: #f7fff7;
 }
 .projects .button {
-    color: #F7FFF7;
-    background: #2F3061;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 8px;
-    display: inline-block;
-    clear: both;
+  color: #f7fff7;
+  background: #2f3061;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 8px;
+  display: inline-block;
+  clear: both;
 }
 .projects .button:hover {
-    color: #FFFF00;
+  color: #ffff00;
 }
 .projects .item {
-    overflow: hidden;
-    border-bottom: 1px dashed #343434;
-    padding: 10px 0;
+  overflow: hidden;
+  border-bottom: 1px dashed #343434;
+  padding: 10px 0;
 }
 .projects .item p {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 .projects .item:last-of-type {
-    border-bottom: none;
+  border-bottom: none;
 }
 .projects img {
-    width: 15%;
-    float: left;
-    margin-right: 5%;
+  width: 15%;
+  float: left;
+  margin-right: 5%;
 }
-
 
 /* Technical Skills 
 -------------------------------------------------*/
 .technical-skills {
-    background-image: url(../images/joanna-kosinska-unsplash.jpg);
-    background-size: cover;
-    background-position: top right;
+  background-image: url(../images/joanna-kosinska-unsplash.jpg);
+  background-size: cover;
+  background-position: top right;
 }
 .tech-item {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
 }
-.tech-item p, ul{
-    margin: 0;
+.tech-item p,
+ul {
+  margin: 0;
 }
-
 
 /* Work Experience 
 -------------------------------------------------*/
 .work-experience {
-    background: #A1C6D7;
+  background: #a1c6d7;
 }
-
 
 /* Education && Certifications
 -------------------------------------------------*/
-.education, .certifications {
-    background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
-    background-size: 145%;
+.education,
+.certifications {
+  background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
+  background-size: 145%;
 }
 
 /* Contact Info 
 -------------------------------------------------*/
 footer {
-    background: #2F3061;
-    color: #FFFFFF;
-    text-align: center;
+  background: #2f3061;
+  color: #ffffff;
+  text-align: center;
 }
 .contact-list {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
 }
 .contact-list a {
-    padding: 15px;
-    display: inline-block;
-    margin-top: 15px;
+  padding: 15px;
+  display: inline-block;
+  margin-top: 15px;
 }
-
 
 /* Responsive 
 -------------------------------------------------*/
 @media (max-width: 450px) {
-    .contact-list {
-        display: flex;
-        flex-direction: column;
-    }
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+  }
 }
-@media screen and (max-width:600px) {
-    body {
-        font-size: 12px;
-        line-height: 1;
-    }
-    .date {
-        float: none;
-    }
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+    line-height: 1;
+  }
+  .date {
+    float: none;
+  }
 }
